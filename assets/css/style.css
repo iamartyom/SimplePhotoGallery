@@ -1,0 +1,26 @@
+body {
+    height: 80%;
+}
+
+.headerCaption {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+.headerCaptionUpper {
+    color: darkmagenta;
+}
+
+.footerCaption {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: lightslategrey;
+}
+
+.swiper-slide {
+    text-align: center;
+}

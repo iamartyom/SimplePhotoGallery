@@ -1,0 +1,9 @@
+<h1 class="headerCaption"><span class="headerCaptionUpper">S</span>imple photo gallery</h1><br>
+<swiper [config]="config">
+    <div class="swiper-wrapper">
+        <div *ngFor = "let image of images" class="swiper-slide"><img src="/assets/img/{{image}}" height="95%" /></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</swiper>
